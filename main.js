@@ -6,6 +6,12 @@ const delButton = document.getElementById('DEL');
 const resetButton = document.getElementById('RESET');
 const equalsButton = document.getElementById('EQUALS');
 
+
+//themes switcher
+const theme1 = document.getElementById('checkbox');
+const theme2 = document.getElementById('checkbox2');
+const theme3 = document.getElementById('checkbox3');
+
 // initialize variables
 let currentInput = '';
 let previousInput = '';
